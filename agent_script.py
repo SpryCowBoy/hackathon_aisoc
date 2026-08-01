@@ -13,7 +13,7 @@ import json
 from mistralai.client import Mistral
 
 # --- Setup ---
-client = Mistral(api_key=qpoI2JbaHOMPDKsgTRKn2NgUi8BamKu9)
+client = Mistral(api_key="qpoI2JbaHOMPDKsgTRKn2NgUi8BamKu9")
 
 ATLASSIAN_CONNECTOR_ID = "0198e70f-57b0-77f6-a752-0a7f5ea2da35"  # your connector ID
 AGENT_ID = None  # set after first run of create_agent(), then hardcode it here to skip recreating
